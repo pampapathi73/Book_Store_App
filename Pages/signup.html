@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sign Up | By Code Info</title>
+    <link rel="stylesheet" href="../css/signup.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="signup-box">
+      <h1>Sign Up</h1>
+      <h4>Bookstore</h4>
+      <form id="formregistration" method="POST" action="../Pages/login.html" >
+        <label>id</label>
+        <input type="number" placeholder="ID" id="id"/>
+        <label>First Name</label>
+        <input type="text" placeholder="Firstname" id="name"/>
+       
+        <label>Email</label>
+        <input type="email" placeholder="email" id="email"/>
+        <label>phone number</label>
+        <input type="text" placeholder="phonenumber" id="phonenumber"/>
+        <label>address</label>
+        <input type="text" placeholder="address" id="address"/>        
+        <label>Password</label>
+        <input type="text" placeholder="Password"id="password" />
+        <label>submit</label>
+        <input type="submit"  value="register" />
+      </form>
+      
+    </div>
+    <p class="para-2">
+      Already have an account? <a href="login.html">Login here</a>
+    </p>
+  </body>
+  <script src="../javascript/signup.js"></script>
+</html>

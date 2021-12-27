@@ -1,0 +1,56 @@
+{
+  "books": [
+    {
+      "title": "The Name of the Wind",
+      "author": "Patrick Rothfuss",
+      "description": "also called The Kingkiller Chronicle: Day One, is a fantasy novel written by American author Patrick Rothfuss. It is the first book in a series called The Kingkiller Chronicle and followed by The Wise Man's Fear.",
+      "id": 1,
+      "coverImage": "../images/book4.png",
+      "publisher": "gadag",
+      "quantity": 80,
+      "price": 450,
+      "sellingprice": "550",
+      "forrent": "40",
+      "forsell": "40"
+    },
+    {
+      "id": "123",
+      "title": "pampa",
+      "author": "reddy",
+      "coverImage": "../images/book5.png",
+      "description": "java",
+      "publisher": "bellary",
+      "quantity": "80",
+      "price": "500",
+      "sellingprice": "550",
+      "forrent": "40",
+      "forsell": "40"
+    },
+    {
+      "id": "124",
+      "title": "UI",
+      "author": "pocktz",
+      "coverImage": "../images/book1.png",
+      "description": "java",
+      "publisher": "bellary",
+      "quantity": "80",
+      "price": "500",
+      "sellingprice": "550",
+      "forrent": "40",
+      "forsell": "40"
+    },
+    {
+      "id": "128",
+      "title": "java ",
+      "author": "oak",
+      "coverImage": "../images/book7.png",
+      "description": "java for learning",
+      "publisher": "bengaluru",
+      "quantity": "80",
+      "price": "500",
+      "sellingprice": "550",
+      "forrent": "40",
+      "forsell": "40"
+    }
+  ]
+}

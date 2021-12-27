@@ -1,0 +1,20 @@
+{
+  "Userdata": [
+    {
+      "id": 2,
+      "name": "pampapathi",
+      "password": 123456,
+      "phoneno": "7022793097",
+      "address": "bangalore",
+      "email": "pampapathi@gmail.com"
+    },
+    {
+      "id": "143",
+      "name": "pampapathi",
+      "email": "pampapathik@gmail.com",
+      "address": "bellary",
+      "phonenumber": "7022793097",
+      "password": "9845820686"
+    }
+  ]
+}

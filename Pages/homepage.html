@@ -1,0 +1,72 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/homepage.css">
+  <link rel="stylesheet" href="../css/homepage1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <title>Book Store</title>
+</head>
+
+<body>
+  <div id=header-content class="header-sec">
+    <div id="header-content" class="header-sec">
+      <div class="header-section">
+        <div class="book-img">
+          <img class="bookimg" src="../images/bookimg.png" alt="">
+          <h1 class="bookstore">Bookstore</h1>
+        </div>
+        <input type="search" id="query" name="q" placeholder="Search..." aria-label="Search through site content"
+          oninput="searchBook()">
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="bookscount">
+    <div class="book-count-section">
+      <span>Books</span>
+      <span class="dashboard-book" id="homepage-book-count"></span>
+    </div>
+
+    <div class="main-list" id="main-list">
+      
+    </div>
+  </div>
+
+
+  <div class="pagination">
+    <a class="active" id="forward" href="#">&laquo;</a>
+    <a class="active" href="#">1</a>
+    <a class="active" href="#">2</a>
+    <a class="active" href="#">3</a>
+    <a class="active" href="#">4</a>
+    <a class="active" href="#">5</a>
+    <a class="active" href="#">6</a>
+    <a class="active" href="#">7</a>
+    <a class="active" href="#">8</a>
+    <a class="active" href="#">9</a>
+    <a class="active" href="#">10</a>
+    <a class="active" id="backward" href="#">&raquo;</a>
+  </div>
+  <div class="footer">
+    <p style="padding-left: 150px;"> Bookstore application </p>
+  </div>
+
+
+
+  <script   src="../javascript/getbook.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+
+</body>
+
+</html>
